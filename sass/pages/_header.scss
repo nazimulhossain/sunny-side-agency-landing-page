@@ -1,0 +1,19 @@
+.header {
+  background-image: url('./images/mobile/image-header.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60rem;
+  padding: 2.4rem;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    display: grid;
+    place-items: center;
+    gap: 4.4rem;
+  }
+}
